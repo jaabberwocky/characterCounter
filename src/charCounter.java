@@ -6,7 +6,7 @@ public class charCounter {
         // remove spaces
         str = str.replaceAll(" ", "");
         // remove all non-alphanumeric
-        str = str.replaceAll("[^a-zA-Z\\d\\s:]", "");
+        str = str.replaceAll("[^a-zA-Z\\d\\s]", "");
 
         HashMap<Character, Integer> dict = new HashMap<>();
 
